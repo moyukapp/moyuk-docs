@@ -1,0 +1,1 @@
+(self.webpackChunkmoyuk_docs=self.webpackChunkmoyuk_docs||[]).push([[525],{5525:()=>{}}]);

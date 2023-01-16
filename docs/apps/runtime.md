@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# JS Runtime
+# JS runtime
 
 Moyuk's apps are executed in a sandboxed environment. The runtime consists of [iframe sandbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox), [Web Worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) and [CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP).
 

@@ -1,0 +1,179 @@
+---
+sidebar_position: 4
+---
+
+# Supported form types
+
+Moyuk automatically generates forms from your TypeScript interfaces.
+Here is a list of supported form field types and corresponding TypeScript types.
+
+
+import CodeBlock from '@theme/CodeBlock';
+export const FormFieldSample = ({ code, src, alt }) => {
+  return <table>
+	  <tr>
+		  <th style={{ width: '40%' }}>TypeScript Type</th>
+			<th style={{ width: '60%' }}>Generated Form Field</th>
+		</tr>
+		<tr>
+			<td style={{ verticalAlign: 'middle' }}>
+				<CodeBlock language="ts">{code}</CodeBlock>
+			</td>
+			<td style={{ verticalAlign: 'middle' }}>
+				<img src={src} alt={alt} />
+			</td>
+		</tr>
+	</table>
+};
+
+
+## `text`
+
+Provides a freeform text input.
+
+<FormFieldSample code="name: string;" src={require('./img/formfields/text.png').default} alt="text" />
+
+The following types are interpreted as text fields by default:
+
+- `string`
+- `string | undefined` - Empty string is converted to `undefined`.
+- `string | null` - Empty string is converted to `null`.
+- `"s"` (string literal) - Becomes a readonly text field with the given value.
+
+The following types also can be used as text fields with form customizations:
+
+- `string[]` - Becomes a multi-line text field.
+
+## `number`
+
+Provides a numeric input.
+
+<FormFieldSample code="value: number;" src={require('./img/formfields/number.png').default} alt="number" />
+
+The following types generate number fields:
+
+- `number` - Does not allow empty input.
+- `number | undefined` - Empty string is converted to `undefined`.
+- `number | null` - Empty string is converted to `null`.
+- `1` (number literal) - Becomes a readonly text field with the given value.
+
+## `checkbox`
+
+Provides a checkbox.
+
+<FormFieldSample code="upperCase: boolean;" src={require('./img/formfields/checkbox.png').default} alt="checkbox" />
+
+The following types generate checkbox fields:
+
+- `boolean`
+- `boolean | undefined` - Unchecked state is interpreted as `undefined`.
+- `boolean | null` - Unchecked state is interpreted as `null`.
+
+## `select`
+
+Provides a select input.
+
+<FormFieldSample code={'theme: "light" | "dark"'} src={require('./img/formfields/select.png').default} alt="select" />
+
+The following types generate select fields:
+
+- `"red" | "green" | "blue"` (union of string literals) - Becomes a select with the given options.
+- `"red" | "green" | undefined` (union of string literals or undefined) - Becomes a select with the given options and an empty option.
+- `1 | 2 | 3` (union of number literals) - Becomes a select with the given options.
+- `1 | 2 | undefined` (union of number literals or undefined) - Becomes a select with the given options and an empty option.
+
+## `date`
+
+Provides a date input.
+The default date format is automatically determined by the user's locale.
+
+<FormFieldSample code="date: Date;" src={require('./img/formfields/date.png').default} alt="date" />
+
+The following types generate date fields:
+
+- `Date` - Does not allow empty input.
+- `Date | undefined` - Empty string is converted to `undefined`.
+- `Date | null` - Empty string is converted to `null`.
+
+The following types also can be used as date fields with form customizations:
+
+- `string`
+- `string | undefined` - Empty string is converted to `undefined`.
+- `string | null` - Empty string is converted to `null`.
+
+## `datetime`
+
+Provides a date and time input.
+The default datetime format is automatically determined by the user's locale.
+
+<FormFieldSample code="datetime: Date;" src={require('./img/formfields/datetime.png').default} alt="datetime" />
+
+The following types can be used as datetime fields with form customizations:
+
+- `Date` - Does not allow empty input.
+- `Date | undefined` - Empty string is converted to `undefined`.
+- `Date | null` - Empty string is converted to `null`.
+- `string`
+- `string | undefined` - Empty string is converted to `undefined`.
+- `string | null` - Empty string is converted to `null`.
+
+## `time`
+
+Provides a time input.
+The default time format is automatically determined by the user's locale.
+
+<FormFieldSample code="time: string;" src={require('./img/formfields/time.png').default} alt="time" />
+
+The following types can be used as time fields with form customizations:
+
+- `Date` - Does not allow empty input.
+- `Date | undefined` - Empty string is converted to `undefined`.
+- `Date | null` - Empty string is converted to `null`.
+- `string`
+- `string | undefined` - Empty string is converted to `undefined`.
+- `string | null` - Empty string is converted to `null`.
+
+## `tags`
+
+Provides a tags input.
+
+<FormFieldSample code="tags: Set<string>" src={require('./img/formfields/tags.png').default} alt="tags" />
+
+The following types generate tags fields:
+
+- `Set<string>`
+- `Set<string> | undefined` - `undefined` if no tags are entered.
+- `Set<string> | null` - `null` if no tags are entered.
+- `Set<number>`
+- `Set<number> | undefined` - `undefined` if no tags are entered.
+- `Set<number> | null` - `null` if no tags are entered.
+
+## `datatable`
+
+Provides a spreadsheet-like data table with infinite number of rows and fixed number of columns.
+
+<FormFieldSample code="values: { name: string, age: number }[]" src={require('./img/formfields/datatable.png').default} alt="datatable" />
+
+The following types generate datatable fields by default:
+
+- `{ name: string, age: number }[]` (array of object literals) - Becomes a table with columns for each property.
+- `[string, number][]` (array of tuples) - Becomes a table with columns for each tuple element.
+- `string[]` (Array) - Becomes a table with a single column.
+- `Map<string, number>` (Map) - Becomes a table with 2 columns: key and value.
+
+## `datagrid`
+
+Provides a spreadsheet-like data table with infinite number of rows and columns.
+
+<FormFieldSample code="values: string[][]" src={require('./img/formfields/datagrid.png').default} alt="datagrid" />
+
+Any array of arrays with following types generate datagrid fields:
+
+- `string` (or string literal)
+- `number` (or number literal)
+- `bigint` (or bigint literal)
+- `boolean` (or boolean literal)
+- `undefined`
+- `null`
+- `Date`
+- `RegExp`

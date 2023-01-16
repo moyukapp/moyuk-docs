@@ -7,13 +7,15 @@ sidebar_position: 2
 An app is just a TypeScript's pure function.
 Moyuk automatically generates a form from the default export function's signature.
 
+## How to create an app
+
 1. Click on **+** Button on the navigation bar or **New App** button on the dashboard.
 1. Edit the TypeScript code in the editor. Make sure to export a function as `default`.
 1. Name the app in **App Info** tab.
 1. (Optional) Customize the form in **Form Customization** tab.
 1. Click on **Publish changes** button to release the app.
 
-## Code
+## Edit the code
 
 You can edit the code in the editor in the **Code** tab.
 The editor is powered by [Monaco Editor](https://microsoft.github.io/monaco-editor/), which is the same editor used in Visual Studio Code.
@@ -51,4 +53,4 @@ export default function run(
 
 This code generates a form like this:
 
-![Generated form](./img/generated-form1.png)
+![Generated form](./img/form-example1.png)

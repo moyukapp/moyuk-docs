@@ -144,7 +144,17 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        indexBlog: false,
+        docsRouteBasePath: "/",
+      }),
+    ],
+  ],
 };
 
 module.exports = config;

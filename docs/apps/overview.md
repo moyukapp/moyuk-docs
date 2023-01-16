@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # What is an App?
 
-An App is just a TypeScript's pure function. Moyuk generates a form from the function's signature.
+An App is just a TypeScript' function. Moyuk generates a form from the function's signature.
 You can use the form to call the function.
 
 ## Benefits of building apps with Moyuk

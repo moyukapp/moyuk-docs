@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Create an App
 
-An app is just a TypeScript's pure function.
+An app is just a TypeScript function.
 Moyuk automatically generates a form from the default export function's signature.
 
 ## How to create an app

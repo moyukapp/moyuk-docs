@@ -145,8 +145,7 @@ The following types generate tags fields:
 - `Set<string> | undefined` - `undefined` if no tags are entered.
 - `Set<string> | null` - `null` if no tags are entered.
 - `Set<number>`
-- `Set<number> | undefined` - `undefined` if no tags are entered.
-- `Set<number> | null` - `null` if no tags are entered.
+- `Set<"red" | "green" | "blue">` (Set of string literals) - Becomes a tags input with the given options.
 
 ## `datatable`
 
@@ -160,6 +159,10 @@ The following types generate datatable fields by default:
 - `[string, number][]` (array of tuples) - Becomes a table with columns for each tuple element.
 - `string[]` (Array) - Becomes a table with a single column.
 - `Map<string, number>` (Map) - Becomes a table with 2 columns: key and value.
+
+The following types also can be used as datatable fields with form customizations:
+
+- `Set<string>` (Set) - Becomes a table with a single column.
 
 ## `datagrid`
 

@@ -57,6 +57,12 @@ The following types generate number fields:
 - `number | null` - Empty string is converted to `null`.
 - `1` (number literal) - Becomes a readonly text field with the given value.
 
+:::caution
+
+Moyuk does not support `bigint` type yet.
+
+:::
+
 ## `checkbox`
 
 Provides a checkbox.
@@ -174,7 +180,6 @@ Any array of arrays with following types generate datagrid fields:
 
 - `string` (or string literal)
 - `number` (or number literal)
-- `bigint` (or bigint literal)
 - `boolean` (or boolean literal)
 - `undefined`
 - `null`

@@ -10,6 +10,34 @@ Moyuk's TypeScript aims to be as compatible as possible with Deno's. (Not fully 
 
 :::
 
+## tsconfig.json
+
+Moyuk doesn't support specifying custom compiler options yet.
+The tsconfig.json set by Moyuk looks like this:
+
+```json
+{
+	"compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "moduleDetection": "force",
+    "strict": true,
+    "target": "esnext",
+    "useDefineForClassFields": true
+	}
+}
+```
+
+:::note
+
+Moyuk's compiler options are made to be as close to [Deno's](https://deno.land/manual/advanced/typescript/configuration) as possible.
+
+:::
+
 ## Import
 
 You can import modules from `https:` or `npm:` URLs just like in Deno.

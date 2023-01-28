@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmoyuk_docs=self.webpackChunkmoyuk_docs||[]).push([[51],{2610:e=>{e.exports=JSON.parse('{"title":"OVerview","slug":"/category/overview","permalink":"/category/overview","navigation":{"previous":{"title":"Introduction to Moyuk","permalink":"/"},"next":{"title":"Requirements","permalink":"/overview/requirements"}}}')}}]);

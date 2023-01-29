@@ -4,15 +4,11 @@ sidebar_position: 3
 
 # TypeScript in Moyuk
 
-:::note
-
 Moyuk's TypeScript aims to be as compatible as possible with Deno's. (Not fully compatible yet.)
-
-:::
 
 ## tsconfig.json
 
-Moyuk doesn't support specifying custom compiler options yet.
+Moyuk doesn't support customizing compiler options yet.
 The tsconfig.json set by Moyuk looks like this:
 
 ```json
@@ -32,9 +28,9 @@ The tsconfig.json set by Moyuk looks like this:
 }
 ```
 
-:::note
+:::info
 
-Moyuk's compiler options are made to be as close to [Deno's](https://deno.land/manual/advanced/typescript/configuration) as possible.
+Moyuk's compiler options are basically same as [Deno's](https://deno.land/manual/advanced/typescript/configuration).
 
 :::
 
@@ -44,19 +40,6 @@ You can import modules from `https:` or `npm:` URLs just like in Deno.
 Moyuk currently doesn't support importing TypeScript files directly, but you can use CDNs that support [X-TypeScript-Types header](https://deno.land/manual/advanced/typescript/types#using-x-typescript-types-header) to import pre-compiled modules.
 
 ## Using npm packages
-
-### Importing npm packages with CDNs
-
-Moyuk supports importing modules from CDNs that support [X-TypeScript-Types header](https://deno.land/manual/advanced/typescript/types#using-x-typescript-types-header) via `https:` URL.
-
-```ts
-import { marked } from 'https://esm.sh/marked@4.2.12';
-```
-
-Here is the list of the CDNs that support `X-TypeScript-Types`:
-
-- [esm.sh](https://esm.sh/)
-- [Skypack](https://www.skypack.dev/)
 
 ### Importing npm packages with npm specifiers
 
@@ -71,6 +54,19 @@ import { marked } from 'npm:marked@^4.2';
 Moyuk uses [esm.sh](https://esm.sh/) internally to resolve npm specifiers.
 
 :::
+
+### Importing npm packages with CDNs
+
+Moyuk supports importing modules from CDNs that support [X-TypeScript-Types header](https://deno.land/manual/advanced/typescript/types#using-x-typescript-types-header) via `https:` URL.
+
+```ts
+import { marked } from 'https://esm.sh/marked@4.2.12';
+```
+
+Here is the list of the CDNs that support `X-TypeScript-Types`:
+
+- [esm.sh](https://esm.sh/)
+- [Skypack](https://www.skypack.dev/)
 
 ## TypeScript version
 

@@ -13,7 +13,7 @@ The following browsers are supported:
 
 The following browsers have been confirmed to not work currently:
 
-| Browser | Use apps | Create apps |
+| Browser | Can use apps? | Can create apps? |
 | ------- | -------- | ----------- |
 | **Firefox** | No | No |
-| **Safari** | Yes | No |
+| **Safari** | Mostly | No |

@@ -153,30 +153,30 @@ The following types generate tags fields:
 - `Set<number>`
 - `Set<"red" | "green" | "blue">` (Set of string literals) - Becomes a tags input with the given options.
 
-## `datatable`
+## `record-table`
 
 Provides a spreadsheet-like data table with infinite number of rows and fixed number of columns.
 
-<FormFieldSample code="values: { name: string, age: number }[]" src={require('./img/formfields/datatable.png').default} alt="datatable" />
+<FormFieldSample code="values: { name: string, age: number }[]" src={require('./img/formfields/record-table.png').default} alt="record-table" />
 
-The following types generate datatable fields by default:
+The following types generate record-table fields by default:
 
 - `{ name: string, age: number }[]` (array of object literals) - Becomes a table with columns for each property.
 - `[string, number][]` (array of tuples) - Becomes a table with columns for each tuple element.
 - `string[]` (Array) - Becomes a table with a single column.
 - `Map<string, number>` (Map) - Becomes a table with 2 columns: key and value.
 
-The following types also can be used as datatable fields with form customizations:
+The following types also can be used as record-table fields with form customizations:
 
 - `Set<string>` (Set) - Becomes a table with a single column.
 
-## `datagrid`
+## `flex-table`
 
 Provides a spreadsheet-like data table with infinite number of rows and columns.
 
-<FormFieldSample code="values: string[][]" src={require('./img/formfields/datagrid.png').default} alt="datagrid" />
+<FormFieldSample code="values: string[][]" src={require('./img/formfields/flex-table.png').default} alt="flex-table" />
 
-Any array of arrays with following types generate datagrid fields:
+Any array of arrays with following types generate flex-table fields:
 
 - `string` (or string literal)
 - `number` (or number literal)

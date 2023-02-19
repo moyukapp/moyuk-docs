@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # Requirements
 
+## OS
+
+Available on the desktop. (Not available on mobile yet.)
+
 ## Browser Support
 
 The following browsers are supported:

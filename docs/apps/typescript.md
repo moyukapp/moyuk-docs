@@ -13,18 +13,18 @@ The tsconfig.json set by Moyuk looks like this:
 
 ```json
 {
-	"compilerOptions": {
-    "allowJs": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "inlineSourceMap": true,
-    "isolatedModules": true,
-    "module": "esnext",
-    "moduleDetection": "force",
-    "strict": true,
-    "target": "esnext",
-    "useDefineForClassFields": true
-	}
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "inlineSourceMap": true,
+        "isolatedModules": true,
+        "module": "esnext",
+        "moduleDetection": "force",
+        "strict": true,
+        "target": "esnext",
+        "useDefineForClassFields": true
+    }
 }
 ```
 
@@ -37,7 +37,12 @@ Moyuk's compiler options are basically same as [Deno's](https://deno.land/manual
 ## Import
 
 You can import modules from `https:` or `npm:` URLs just like in Deno.
-Moyuk currently doesn't support importing TypeScript files directly, but you can use CDNs that support [X-TypeScript-Types header](https://deno.land/manual/advanced/typescript/types#using-x-typescript-types-header) to import pre-compiled modules.
+
+Moyuk currently supports importing modules from:
+
+- `npm:` URLs. (e.g. `npm:marked@^4.2`)
+- `https:` URLs that refer to TypeScript files. (e.g. `https://deno.land/std@0.178.0/async/mod.ts`)
+- `https:` URLs that refer to JavaScript files with [X-TypeScript-Types header](https://deno.land/manual/advanced/typescript/types#using-x-typescript-types-header). (e.g. `https://esm.sh/marked@4.2`)
 
 ## Using npm packages
 
@@ -52,6 +57,13 @@ import { marked } from 'npm:marked@^4.2';
 :::note
 
 Moyuk uses [esm.sh](https://esm.sh/) internally to resolve npm specifiers.
+
+:::
+
+:::caution
+
+Not all npm packages work with Moyuk.
+Npm packages that use Node.js built-in modules or native modules won't work.
 
 :::
 

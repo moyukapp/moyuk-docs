@@ -164,11 +164,10 @@ The following types generate record-table fields by default:
 - `{ name: string, age: number }[]` (array of object literals) - Becomes a table with columns for each property.
 - `[string, number][]` (array of tuples) - Becomes a table with columns for each tuple element.
 - `string[]` (Array) - Becomes a table with a single column.
+- `Set<string>` (Set) - Becomes a table with a single column.
 - `Map<string, number>` (Map) - Becomes a table with 2 columns: key and value.
 
-The following types also can be used as record-table fields with form customizations:
-
-- `Set<string>` (Set) - Becomes a table with a single column.
+You can also use tuples instead of arrays to specify the number of rows.
 
 ## `flex-table`
 
@@ -185,3 +184,5 @@ Any array of arrays with following types generate flex-table fields:
 - `null`
 - `Date`
 - `RegExp`
+
+You can also use tuples instead of arrays to specify the number of columns and rows.

@@ -5,9 +5,15 @@ title: Terms of Service
 
 # Terms of Service for Moyuk
 
-Last updated: February 27, 2023
+Last updated: March 15, 2023
 
 These Terms of Service outline the rules and regulations for the use of Moyuk. By using our service or accessing this website, you agree to be bound by these Terms. Do not continue to use Moyuk if you do not agree to take all of the Terms of Service stated on this page.
+
+## Note about Beta
+
+1. Moyuk is currently in beta. We reserve the right to change the service, including the Terms of Service, at any time.
+2. We are not responsible for any loss of data or other issues that may occur during the beta period.
+3. Our service may not be fully compliant with the General Data Protection Regulation (GDPR) or other privacy laws. Do not use our service if you are subject to these laws.
 
 ## Account
 

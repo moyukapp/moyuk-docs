@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## OS
 
-Available on the desktop. (Not available on mobile yet.)
+Available on any desktop　OS. (Not available on mobile yet.)
 
 ## Browser Support
 

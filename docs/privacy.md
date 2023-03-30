@@ -9,6 +9,12 @@ Last updated: February 20, 2023
 
 This privacy policy explains how we collect, use, disclose, and protect your personal information when you use [Moyuk](https://moyukapp.com) (hereinafter referred to as “service”).
 
+## Note about Beta
+
+Moyuk is currently in beta.
+Please note that during the beta version of our service, it may not be fully compliant with the General Data Protection Regulation (GDPR).
+If you are subject to the GDPR, we kindly ask that you do not use our service.
+
 ## What information do we collect?
 
 We collect two types of information from you: personal data and non-personal data.

@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Privacy Policy for Moyuk
 
-Last updated: February 20, 2023
+Last updated: March 30, 2023
 
 This privacy policy explains how we collect, use, disclose, and protect your personal information when you use [Moyuk](https://moyukapp.com) (hereinafter referred to as “service”).
 

@@ -83,7 +83,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/moyukapp/moyuk-docs', // TODO: monorepo
+            href: 'https://github.com/moyukapp/moyuk',
             label: 'GitHub',
             position: 'right',
           },

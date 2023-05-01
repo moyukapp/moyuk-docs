@@ -186,3 +186,18 @@ Any array of arrays with following types generate flex-table fields:
 - `RegExp`
 
 You can also use tuples instead of arrays to specify the number of columns and rows.
+
+## `file`
+
+Provides a file input / output.
+
+<FormFieldSample code="files: File[]" src={require('./img/formfields/file.png').default} alt="file" />
+
+The following types generate file fields:
+
+- [`File`](https://developer.mozilla.org/docs/Web/API/File) - Does not allow empty input.
+- [`Blob`](https://developer.mozilla.org/docs/Web/API/Blob) - Does not allow empty input.
+- `File | undefined` - `undefined` if no file is selected.
+- `File[]` - Multiple files can be selected.
+- `[File, File?, File?]` - 1 to 3 files can be selected.
+- `[File, ...File[]]` - At least 1 file must be selected.

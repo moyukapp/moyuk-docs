@@ -64,6 +64,21 @@ We take reasonable measures to protect your personal data from unauthorized acce
 
 We retain your personal data for as long as necessary to provide you with our service and its features, or as required by law. We may delete or anonymize your personal data when it is no longer needed for these purposes, or when you request us to do so.
 
+### Service Termination and Data Deletion
+
+In connection with the service termination scheduled for June 1, 2025, 00:00 UTC:
+
+1. All user data will be permanently deleted on the service end date, including:
+   - Personal data (names, email addresses, profile information)
+   - Account data
+   - Apps and their associated data
+   - Any other data stored on our servers
+2. After the service termination, all user data will be permanently deleted with no exceptions.
+3. Users are advised to:
+   - Download or backup any data they wish to keep before the service end date
+   - Save any app code they want to preserve
+4. No data recovery will be possible after the service termination date.
+
 ## What are your rights and choices?
 
 You have certain rights and choices regarding your personal data that we collect and process. These include:

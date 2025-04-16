@@ -74,6 +74,19 @@ These Terms of Service outline the rules and regulations for the use of Moyuk. B
 2. If a revision is material, we will provide at least 30 days notice prior to any new Terms taking effect. What constitutes a material change will be determined at our sole discretion.
 3. By continuing to access or use our service after the revisions to the Terms become effective, you agree to be bound by the revised Terms. If you do not agree to the new Terms, please stop using the service.
 
+## Service Termination
+
+1. Moyuk will terminate its service on June 1, 2025, 00:00 UTC.
+2. After the service termination:
+   - All user accounts and associated data will be permanently deleted
+   - All apps and their data will be permanently deleted
+   - The service will no longer be accessible
+3. Users are responsible for:
+   - Backing up any app code they wish to keep before the service end date
+   - Saving any important data before the service termination
+4. No compensation will be provided in connection with the service termination.
+5. The last day for creating new accounts and apps will be May 17, 2025, 00:00 UTC.
+
 ## Contact Us
 
 If you have any questions about these Terms, please contact us at hello@moyukapp.com

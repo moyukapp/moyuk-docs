@@ -5,53 +5,42 @@ title: End of Service Announcement
 
 # End of Service Announcement
 
-I regret to inform you that Moyuk will be discontinuing its service. I want to thank all users for their support and provide important information about the service termination.
+Moyuk has discontinued its service as of June 1, 2025, 00:00 UTC. I want to thank all users for their support during the service's operation.
 
-## Important Dates
+## Service Termination Details
 
-- **Service End Date**: June 1, 2025, 00:00 UTC
-- **Last Day for New Registrations and Creating New Apps**: May 17, 2025, 00:00 UTC
+- **Service End Date**: June 1, 2025, 00:00 UTC ✅ **Completed**
+- **Last Day for New Registrations and Creating New Apps**: May 17, 2025, 00:00 UTC ✅ **Completed**
 
-## What This Means For You
+## What Happened
 
-### Existing Users
-- All user accounts and associated data will be permanently deleted on June 1, 2025
-- No new apps can be created after May 17, 2025
-- Existing apps will continue to function until the service end date
-- Please save any app code you wish to keep before the service end date by copying it from the app editor
+### Service Status
+- The Moyuk service was permanently discontinued on June 1, 2025
+- The database has been suspended and is no longer accessible
+- All data will be permanently deleted on June 30, 2025
 
-### Data Handling
-- All user data will be permanently deleted on June 1, 2025
-- This includes:
-  - User accounts and profiles
-  - Apps and their associated data
-- I recommend backing up any important code before the service end date
+### Data Preservation
+If you urgently need any data that was stored in your Moyuk account, please contact me directly at hello@moyukapp.com. I will handle such requests on a case-by-case basis during this period.
 
-## Why The Service is Ending
+Please note that no further announcements will be made regarding the final data deletion on June 30, 2025.
 
-I have made the difficult decision to end Moyuk for several reasons:
+### Final Period
+- New app creation was disabled after May 17, 2025
+- Existing apps continued to function until the service end date of June 1, 2025
+- Users had the opportunity to save their app code by copying it from the app editor
 
-1. **Resource Allocation**: I need to focus resources on other projects
-2. **Maintenance Burden**: The ongoing maintenance requirements have become unsustainable
-3. **Market Changes**: With the rise of AI technologies, there has been a decrease in demand for this specific service
+## Why The Service Ended
 
-## Frequently Asked Questions
+I made the difficult decision to end Moyuk for several reasons:
 
-### Can I still use my apps until the end date?
-Yes, all existing apps will continue to function normally until June 1, 2025, 00:00 UTC.
+1. **Resource Allocation**: I needed to focus resources on other projects
+2. **Maintenance Burden**: The ongoing maintenance requirements had become unsustainable
+3. **Market Changes**: With the rise of AI technologies, there was a decrease in demand for this specific service
 
-### How can I save my app code?
-To save your app code:
-1. Open each app in the editor
-2. Copy the TypeScript code
-3. Save it to your local machine
-Please do this well before the service end date.
+## Thank You
 
-### What if I have questions not answered here?
-Please contact me at hello@moyukapp.com with any additional questions or concerns.
+I sincerely thank everyone who was part of the Moyuk community. Your support and engagement made this project meaningful during its operation.
 
 ## Contact Information
 
-If you have any questions about the service termination, please don't hesitate to reach out to me at hello@moyukapp.com.
-
-I sincerely thank you for being part of the Moyuk community and apologize for any inconvenience this may cause. 
+If you have any questions about the service termination or need access to your data, you can reach out to me at hello@moyukapp.com.

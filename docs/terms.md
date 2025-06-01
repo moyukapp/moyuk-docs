@@ -5,7 +5,7 @@ title: Terms of Service
 
 # Terms of Service for Moyuk
 
-Last updated: March 15, 2023
+Last updated: June 1, 2025
 
 These Terms of Service outline the rules and regulations for the use of Moyuk. By using our service or accessing this website, you agree to be bound by these Terms. Do not continue to use Moyuk if you do not agree to take all of the Terms of Service stated on this page.
 
@@ -17,8 +17,8 @@ These Terms of Service outline the rules and regulations for the use of Moyuk. B
 
 ## Account
 
-1. You must be at least 13 years old to use our service. If you are under 18 years old, you must have your parent or guardian’s permission to use our service and accept these Terms on your behalf.
-2. You must not share your account with anyone else or use anyone else’s account.
+1. You must be at least 13 years old to use our service. If you are under 18 years old, you must have your parent or guardian's permission to use our service and accept these Terms on your behalf.
+2. You must not share your account with anyone else or use anyone else's account.
 3. You are responsible for keeping your account secure and confidential. We cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.
 4. You must notify us immediately if you suspect any unauthorized access or activity on your account.
 5. We reserve the right to suspend or terminate your account with or without notice.
@@ -76,16 +76,20 @@ These Terms of Service outline the rules and regulations for the use of Moyuk. B
 
 ## Service Termination
 
-1. Moyuk will terminate its service on June 1, 2025, 00:00 UTC.
-2. After the service termination:
-   - All user accounts and associated data will be permanently deleted
-   - All apps and their data will be permanently deleted
-   - The service will no longer be accessible
-3. Users are responsible for:
-   - Backing up any app code they wish to keep before the service end date
+1. Moyuk terminated its service on June 1, 2025, 00:00 UTC.
+2. As of the service termination:
+   - The service is no longer accessible
+   - The database has been suspended and is no longer accessible
+   - All data will be permanently deleted on June 30, 2025
+3. Data preservation during transition period:
+   - If you urgently need any data that was stored in your Moyuk account, please contact me directly at hello@moyukapp.com
+   - Such requests will be handled on a case-by-case basis
+   - No further announcements will be made regarding the final data deletion on June 30, 2025
+4. Users were responsible for:
+   - Backing up any app code they wished to keep before the service end date
    - Saving any important data before the service termination
-4. No compensation will be provided in connection with the service termination.
-5. The last day for creating new accounts and apps will be May 17, 2025, 00:00 UTC.
+5. No compensation was provided in connection with the service termination.
+6. The last day for creating new accounts and apps was May 17, 2025, 00:00 UTC.
 
 ## Contact Us
 

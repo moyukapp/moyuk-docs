@@ -5,9 +5,9 @@ title: Privacy Policy
 
 # Privacy Policy for Moyuk
 
-Last updated: March 30, 2023
+Last updated: June 1, 2025
 
-This privacy policy explains how we collect, use, disclose, and protect your personal information when you use [Moyuk](https://moyukapp.com) (hereinafter referred to as “service”).
+This privacy policy explains how we collect, use, disclose, and protect your personal information when you use [Moyuk](https://moyukapp.com) (hereinafter referred to as "service").
 
 ## Note about Beta
 
@@ -66,18 +66,20 @@ We retain your personal data for as long as necessary to provide you with our se
 
 ### Service Termination and Data Deletion
 
-In connection with the service termination scheduled for June 1, 2025, 00:00 UTC:
+In connection with the service termination that occurred on June 1, 2025, 00:00 UTC:
 
-1. All user data will be permanently deleted on the service end date, including:
-   - Personal data (names, email addresses, profile information)
-   - Account data
-   - Apps and their associated data
-   - Any other data stored on our servers
-2. After the service termination, all user data will be permanently deleted with no exceptions.
-3. Users are advised to:
-   - Download or backup any data they wish to keep before the service end date
-   - Save any app code they want to preserve
-4. No data recovery will be possible after the service termination date.
+1. Service status as of June 1, 2025:
+   - The Moyuk service was permanently discontinued
+   - The database has been suspended and is no longer accessible
+   - All data will be permanently deleted on June 30, 2025
+2. Data preservation during transition period:
+   - If you urgently need any data that was stored in your Moyuk account, please contact me directly at hello@moyukapp.com
+   - Such requests will be handled on a case-by-case basis
+   - No further announcements will be made regarding the final data deletion on June 30, 2025
+3. Users were advised to:
+   - Download or backup any data they wished to keep before the service end date
+   - Save any app code they wanted to preserve
+4. After June 30, 2025, no data recovery will be possible.
 
 ## What are your rights and choices?
 
@@ -96,7 +98,7 @@ If you want to exercise any of these rights or choices, please contact us at pri
 
 ## Do we collect information from minors?
 
-We do not knowingly collect personal information from children under 13 years of age without verifiable parental consent. If we learn that we have collected such information without consent, we will delete it as soon as possible. If you are a parent or guardian and you believe that your child has provided us with personal information without your consent, please contact us and we will take steps to remove such information and terminate the child’s account.
+We do not knowingly collect personal information from children under 13 years of age without verifiable parental consent. If we learn that we have collected such information without consent, we will delete it as soon as possible. If you are a parent or guardian and you believe that your child has provided us with personal information without your consent, please contact us and we will take steps to remove such information and terminate the child's account.
 
 ## How do we update our privacy policy?
 
